@@ -27,7 +27,7 @@ inquirer.prompt(
                 'Apache 2.0 License',
                 'GNU GPL v2',
                 'GNU AGPL v3',
-                'GNU GPL v2',
+                'GNU GPL v3',
                 'MIT',
                 'Mozilla Public License 2.0',
             ],
@@ -39,7 +39,7 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            name: 'username',
+            name: 'userName',
             message: 'What is your Github username?',
         },
         {
