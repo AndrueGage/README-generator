@@ -18,7 +18,8 @@
   You can install this project by intalling NodeJS then using "npm i inquirer@8.2.4" to install the proper dependencies needed. 
 
   ## Usage
-  Use this project to create a README.md by running "node index" in your console once you have inquirer v8.2.4 installed using NodeJS
+  Use this project to create a README.md by running "node index" in your console once you have inquirer v8.2.4 installed using NodeJS.
+  Heres a [link](https://vimeo.com/manage/videos/896771088) to the video showing the functionality!
 
   ## Contributing
   https://www.contributor-covenant.org/
