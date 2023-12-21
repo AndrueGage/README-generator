@@ -41,6 +41,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'contributing',
+        message: 'Follow Contributor Covenent guidelines.'
+    },
+    {
+        type: 'input',
         name: 'tests',
         message: 'Give some test examples of your project.'
     },
@@ -57,14 +62,14 @@ const questions = [
 ]
 
 
-// TODO: Create a function to write README file
+// a function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFile(fileName, data, (err) => (
         err ? console.error(err) : console.log('README.md has been successfully created!')
     ));
 }
 
-// TODO: Create a function to initialize app
+// a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => writeToFile('README.md', generateMarkdown(data)))
 }
